@@ -1,0 +1,16 @@
+DROP TABLE Users;
+DROP TABLE Registered_User;
+DROP TABLE Book_Warehouse;
+DROP TABLE Publisher;
+DROP TABLE PublisherPhones;
+DROP TABLE Book;
+DROP TABLE User_BankInfo;
+DROP TABLE User_ShipInfo;
+DROP TABLE Shipping_Info;
+DROP TABLE Banking_Info;
+DROP TABLE Shipping_Company;
+DROP TABLE Orders;
+DROP TABLE CheckoutBasket;
+DROP TABLE BookGenres;
+DROP TABLE BookAuthors;
+DROP TABLE SelectedBooks;
