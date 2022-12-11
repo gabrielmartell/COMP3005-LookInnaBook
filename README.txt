@@ -26,6 +26,8 @@ From the Admin Menu, You can Fill, Remove and Create the database tables. In add
 Furthermore, you can view the accounting statistics, view the emails sent out (when an order decreaes past a quantity of five), and view the publishers.
 Note that the emails sent out are local to the concurrent application, they are automatically archived (deleted) when the application is closed. It will prioritize moreso like a log of what has been sent out today.
 
+To get the most out of seeing what this program can do, delete the tables, create them, and then fill them again.
+
 Notes:
 --------------------------------------
 The SQL queries are located in the sql_queries directory.
