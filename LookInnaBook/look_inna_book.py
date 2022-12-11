@@ -350,7 +350,7 @@ def checkout(c, user):
 
         elif (shipping_loop == "2"):
             while ( True ):
-                address = str(input("Address ('stop' to stop input): "))
+                address = str(input("Address: "))
                 province = str(input("Province: "))
                 city = str(input("City: "))
                 postal = str(input("Postal Code (XXX XXX): "))
@@ -733,7 +733,7 @@ def register_menu(c, user):
 
                 print("[NOTICE] Type 'stop' to stop input.\n")
                 while (True):
-                    address = str(input("Address ('stop' to stop input): "))
+                    address = str(input("Address: "))
                     if (address == "stop"): break
                     if (address == "exit"): 
                         broke = True
@@ -998,8 +998,6 @@ def send_email(c, user, bookInfo):
 
     for i in range(31):
         date = last_month.strftime("%d/%m/%Y")
-
-        print(date)
         results = executeSQLFromLocal(f'''SELECT Shipping_Company.shippingID, Shipping_Company.departureDate
                                             FROM Shipping_Company, Orders, CheckoutBasket 
                                             WHERE '{bookInfo[0][0]}'=CheckoutBasket.ISBN
@@ -1007,8 +1005,6 @@ def send_email(c, user, bookInfo):
                                             AND Shipping_Company.shippingID=Orders.shippingID
                                             AND Orders.orderID=CheckoutBasket.orderID''', c)
         
-        print(results)
-        time.sleep(1)
         if (len(results) != 0):
             for result in results:
                 valuesLastMonth.append(result)
@@ -1317,6 +1313,7 @@ def admin_menu(c, user):
     # VIEW PUBLISHERS
     #___________________________________________________________
         elif (option == "11"):
+            os.system('cls')
             publishers = executeSQLFromLocal('''SELECT *
                                                 FROM Publisher''',c)
                                             
