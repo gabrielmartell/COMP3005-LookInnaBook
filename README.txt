@@ -7,6 +7,8 @@ This application is ran through a Python Executeable, therefore Python or Python
 You can refer to this "https://realpython.com/run-python-scripts/#:~:text=To%20run%20Python%20scripts%20with,see%20the%20phrase%20Hello%20World!" if need be.
 Once that is done, you can run the executeable called "look_inna_book.py", located in the LookInnaBook folder directory. 
 
+This program uses SQLite.
+
 Instructions:
 --------------------------------------
 From there you can choose to login, create an account, or return. If you wish to see the administration capabilities, you can login with "gabemartell" as the username and "password" as the password.
