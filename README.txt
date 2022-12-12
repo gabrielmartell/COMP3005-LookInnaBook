@@ -6,7 +6,8 @@ Installation and Execution:
 This application is ran through a Python Executeable, therefore Python or Python3 will be needed to run this.
 You can refer to this "https://realpython.com/run-python-scripts/#:~:text=To%20run%20Python%20scripts%20with,see%20the%20phrase%20Hello%20World!" if need be.
 Once that is done, you can run the executeable called "look_inna_book.py", located in the LookInnaBook folder directory. 
-Make sure that the "LookInnaBook" folder and all of its elements are contained. There are some directory calls and changing it will cause compile errors.
+Make sure that the "LookInnaBook" folder and all of its elements are contained. There are some directory calls and changing it will cause compile errors. 
+TD;LR download the folder not the files within.
 
 This program uses SQLite.
 
