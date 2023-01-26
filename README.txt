@@ -1,6 +1,10 @@
 Name: Gabriel Martell
 Student #: 101191857
 
+Information:
+--------------------------------------
+Fall 2022 COMP3005 (Database Management) Final Project
+
 Installation and Execution:
 --------------------------------------
 This application is ran through a Python Executeable, therefore Python or Python3 will be needed to run this.
