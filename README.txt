@@ -4,6 +4,7 @@ Student #: 101191857
 Information:
 --------------------------------------
 Fall 2022 COMP3005 (Database Management) Final Project
+Project Grade: 100%
 
 Installation and Execution:
 --------------------------------------
